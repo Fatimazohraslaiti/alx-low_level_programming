@@ -1,14 +1,21 @@
 
 
 #include <stdio.h>
+
 /**
- * main - Entry Point
+ * main - Entry point
  *
  * Return: Always 0 success
  */
 
 int main(void)
 {
-	printf("0123456789\n");
+	int i = 0;
+
+	do {
+	putchar(i + '0');
+	i++;
+	} while (i <= 9);
+	putchar('\n');
 	return (0);
 }
