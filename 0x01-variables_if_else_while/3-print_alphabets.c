@@ -3,17 +3,23 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 success
  */
 
 int main(void)
 {
-	char c = 'a';
+	char l = 'a';
+	char L = 'A';
 
-	while (c <= 'z')
+	while (l <= 'z')
 	{
-		putchar(c);
-		c++;
+	putchar(l);
+	l++;
+	}
+	while (L <= 'Z')
+	{
+	putchar(L);
+	L++;
 	}
 	putchar('\n');
 	return (0);
