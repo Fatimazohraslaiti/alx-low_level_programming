@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _putchar - check the code
+ * main - check the code
  *
  * Return: Always 0.
  */
-int _putchar(void)
+int main(void)
 	{
 		_putchar('_');
 		_putchar('p');
